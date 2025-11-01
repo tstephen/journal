@@ -1,0 +1,101 @@
+---
+title: "2025 06 29 Tui Challenge"
+date: 2025-06-29
+draft: false
+---
+
+# 2025-06-29-tui-challenge
+
+Trying this on Kubuntu 24.04.02
+
+1. Music: <https://cmus.github.io/#documentation>
+
+   * `sudo apt-get install cmus`
+   * `man cmus` suggests `:a ~/Music` to add tracks to library
+   * but no output plugins to play stuff
+   * Arch Wiki <https://wiki.archlinux.org/title/Cmus#Using_cmus_with_ALSA> suggested creating rc file to work with Alsa (that I new was installed)
+
+     ```
+     ~/.config/cmus/rc
+
+     set output_plugin=alsa
+     set dsp.alsa.device=default
+     set mixer.alsa.device=default
+     set mixer.alsa.channel=Master
+     ```
+
+2. Feed reader: <https://github.com/veeso/tuifeed>
+
+   * `curl --proto '=https' --tlsv1.2 -sSLf "https://git.io/J1O0Z" | sh`
+   * Determined deb install appropriate.
+   * post install configure with `tuifeed -c`
+   * Didn't work, which is anticipated by the README, so edit `$XDG_CONFIG_HOME/tuifeed/config.toml`
+     * Kubuntu has `$XDG_CONFIG_DIRS` instead of `$XDG_CONFIG_HOME`, may be relevant?
+     * Sure enough `export XDG_CONFIG_HOME=~/.config`, then edit the config (still needs manual edit).
+     * But after that, works fine.
+
+   * potential alternative: <https://github.com/ckampfe/russ>
+
+3. System monitor: <https://github.com/aristocratos/bpytop>
+
+   * `sudo apt install bpytop`
+   * Happy Dayz
+
+4. Editor: `neovim` + `Kickstart`
+
+   * <https://github.com/tstephen/kickstart.nvim/tree/master>
+   * ```sh
+     sudo add-apt-repository ppa:neovim-ppa/unstable -y
+     sudo apt update
+     sudo apt install make gcc ripgrep unzip git xclip neovim luarocks
+     sudo apt install fonts-noto-color-emoji
+     ```
+   * no explorer tho, hence try lunarvim...
+   * uninstall
+     ```sh
+     mv ~/.local/share/nvim/ ~/.local/share/nvimi.dis/
+     mv ~/.config/nvim ~/.config/nvim.dis
+     ```
+   * Managed to install https://github.com/nvim-tree/nvim-tree.lua into `init.lua`
+     but actually <leader-sf> (search file) using telescope is probably better
+
+
+5. Editor: LunarVim (1.4.0 as of May 24)
+
+   * `LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh)`
+   * unable to install ``pynvim` due to the pip -> pipx migration issue, choose no.
+     * separate install as described at: https://pynvim.readthedocs.io/en/latest/installation.html
+   * error: "Unable to verify plugins, make sure to manually run ':Lazy sync' when starting lvim for the first time."
+   * <leader-e>: explorer
+   * <leader-s>: guide to shortcuts (via telescope plugin I think)
+   * https://docs.github.com/en/copilot/how-tos/set-up/installing-the-github-copilot-extension-in-your-environment?tool=vimneovim[install copilot]
+     * NOTE `lvim` not `nvim` in `git clone https://github.com/github/copilot.vim ~/.config/lvim/pack/github/start/copilot.vim`
+
+6. LLMs: parllama
+
+* https://terminaltrove.com/parllama/
+* `pipx install parllama`
+* fails the impatient user test: no models, no instructions, /help didn't
+
+7. LLMs: tenere
+
+* https://github.com/pythops/tenere?tab=readme-ov-file
+* looks promising but not ready to get chatgpt key or host own llama / ollama yet.
+
+8. Email: Himalaya
+
+* https://github.com/pimalaya/himalaya
+* saw https://forwardemail.net/en/blog/open-source/command-line--cli-email-clients[some recommendations]
+* not sure I like the CLI-not-TUI approach
+
+9. Email: NeoMutt
+
+* https://neomutt.org/distro/debian
+* `sudo apt install neomutt`
+* Ah yes, I remember, need a MailTranferAgent or something to populate ~/Mail
+
+10. Email: meli
+
+* `apt install meli` didn't work on Ubuntu 24.04
+* also needs mail to be already available
+

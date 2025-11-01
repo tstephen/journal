@@ -1,0 +1,57 @@
+---
+title: "2025-06-15 Todo"
+date: 2025-06-15
+draft: false
+---
+
+# 2025-06-15
+
+- jobs (am)
+  - BPM CV
+    - apply for French job
+    - look for Camunda implementation job
+  - Contract Python applications
+    - try to find an agency
+      ~~tried!~~
+  - ~~follow up Alex - Met Office~~
+
+- portfolio (afternoon)
+  - real world blog
+    - ~~scaffold~~
+    - ~~cors~~
+    - ~~user and authentication~~
+    - deploy to GCP
+  - ai blog
+    - keeping copilot log
+
+- knowprocess
+  - GHA to deploy apps to flowable 7
+    - ~~first steps~~
+  - robot to test apps
+  - switch to flowable 7 
+    - needed processes
+      - alife
+        - website/1-RecordAndRespondToLegacyEnquiry.bpmn
+        - simple-todo/SimpleTodo.bpmn
+
+- personal
+  - qt
+    - ~~mon: Comer and Mark~~
+    - ~~tue: lectio~~
+  - work coach
+  - duo
+    - ~~tue~~
+  - WCA
+    - linkedin
+    - ~~read scorecards~~
+    - ~~junior church~~
+    - ~~FIT reading~~
+    - ~~Seaweed bookings into calendar~~
+    - ~~Dan - house measurements~~
+    - Post sermon
+
+- home
+  - finish deck
+  - ~~put up hooks~~
+  - ~~fix first post~~
+  - trim hedge

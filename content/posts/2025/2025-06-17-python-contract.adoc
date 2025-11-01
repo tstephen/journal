@@ -1,0 +1,97 @@
+---
+title: "2025 06 17 Python Contract"
+date: 2025-06-17
+draft: false
+---
+
+= Tim Stephenson 
+077988 67607 | tim@knowprocess.com 
+
+== Summary  
+
+* An experienced software lead focussed on business goals through automation and digital transformation.
+* A consultative developer well-versed with multiple languages including Python, Java, and TypeScript delivered in a cloud-native environment.
+* Extensive experience with containerized architectures (Kubernetes, Docker) and cloud platforms (AWS, GCP).
+* Skilled in designing and building RESTful APIs (FastAPI, SQLAlchemy) and collaborating with frontend engineers.
+* Experienced running projects from small and scaling start-ups to high-profile clients including UK government, Security Cleared (SC), and NHS.  
+
+## Education
+
+2:1 Master of Engineering (Hons) from University of Manchester, 1993-1997        
+
+== Professional Experience
+
+=== March 2022 – Present: Elsevier
+
+* Designed and implemented new applications delivering insights on securing and optimizing cost and reliability of cloud applications.
+* Built and refined RESTful APIs using FastAPI and integrated them into frontend apps.
+* Migrated legacy backend services into cloud hosting, improving scalability and maintainability.
+* Implemented CI/CD pipelines, transitioning from Jenkins to GitHub Actions.
+* Collaborated with cross-functional teams, including frontend engineers.
+
+*Technologies*: Python, FastAPI, SQLAlchemy, AWS Lambda, API Gateway, DynamoDB, Kubernetes, Docker, GitHub Actions, Terraform, OpenAPI (Swagger), NewRelic
+
+=== Feb 2013 - 2022: KnowProcess (Freelance) 
+
+Business automation and digital transformation consulting. 
+Implementation of Business Process orchestration of Domain Driven and Decision Management based backend services (Java and Python).
+
+Highlighted projects below:
+
+==== 2019-2021 Several Government departments 
+
+* Defined software services adhering to the Government Digital Service (GDS)’s Design Standard for user experience.
+* Full stack development with Agile practices, including Python and TypeScript.
+* Security cleared (SC).
+
+*Technologies:* Python, FastAPI, Django, SQLAlchemy, Robot Framework, Java 8 & 11, Spring Boot, Micro-services, TypeScript, Rest APIs, Keycloak, OAuth, OpenID, Angular, Postgres, MongoDB, BPMN, Docker, Kubernetes, AWS, OpenShift, Terraform, Helm 
+
+==== 2015-2022 Sustainable Reporting Portal for Greener NHS
+
+* Directed the development of innovative software products focused on non-financial (ESG) reporting and carbon calculations. 
+* Transitioned domain-driven monolith to cloud-based microservices, leveraging Kubernetes for container orchestration.
+* Delivered automation frameworks capable of generating accurate Carbon reports _'at the click of a button'_.
+
+*Technologies:* Java 8 & 11, Spring MVC, Spring Security, Spring Boot, JavaScript, JPA, Liquibase, JWT, Keycloak, Postgres, Reactive web app, d3.js, Linux, DMN, Docker, Kubernetes, Terraform, Helm 
+
+==== 2014-2021 Software service
+
+* Technical founder of a customer management automation platform for SMEs.
+* Designed and delivered the service, including backend systems and API integrations.
+
+*Technologies:* Java, Spring MVC, Spring Security, Spring Boot, JPA, Liquibase, JWT, Keycloak, MySQL, Angular, Linux, BPMN, Docker, Kubernetes, Terraform, Helm 
+
+==== 2013-2016 Climate KIC (start-up incubator at Imperial College) 
+
+* Developed software for tracking and managing carbon emissions, transitioning to NHS project work.
+* Gained experience with start-up environments and lean methodologies.
+
+*Technologies:* Java, Docker, Kubernetes, Spring MVC, Spring Security, Spring Boot, JPA, Liquibase, JWT, Postgres, Reactive web app, d3.js, Linux
+
+==== 2014-2016 Discover North Somerset
+
+* Showcased local businesses and attractions, integrating council Open Data.
+
+*Technologies:* WordPress, Python, Open Data server (CKAN and Redbridge) 
+
+=== Feb 2012 - Jan 2013: Technical Architect, Helveta  
+
+* Designed and delivered a next-generation sustainable supply tracking product for the timber industry.
+* Established agile development practices and mentored team leads.
+
+=== Dec 2010 - Feb 2012: Technical founder, pailz.com  
+
+* Developed a team management solution with a Python (Django) frontend and Java backend hosted on Google App Engine.
+
+=== Jan 2004 - Nov 2010: Engineering Director, TIBCO Software Inc. (previously Staffware), UK  
+
+* Championed Agile development culture and test-driven development.
+* Delivered award-winning BPM solutions, mentoring team members and promoting leadership growth.
+
+=== Jun 2003 - Dec 2003: Consultant at Hummingbird, UK  
+
+=== Oct 2001 - Mar 2003: Technical Specialist with Technology One, Australia 
+
+=== Oct 1998 - July 2001: Principal Consultant with Sybase Professional Services, UK  
+
+=== Aug 1997 - Oct 1998: Analyst / Developer with Admiral Computing, now LogicaCMG

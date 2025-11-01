@@ -1,0 +1,78 @@
+---
+title: "2025 07 01 Realworld Frontend React"
+date: 2025-07-01
+draft: false
+---
+
+# RealWorld front end in React
+Links:
+
+* https://codebase.show/projects/realworld?language=typescript[RealWorld examples in TypeScript]
+* https://github.com/angelguzmaning/ts-redux-react-realworld-example-app[React using hooks + Redux]
+** "This project was bootstrapped with https://github.com/facebook/create-react-app[Create React App], using the Redux and Redux Toolkit template."
+** But Create React App says it closed in 2021 and "we recommend that you migrate to one of React frameworks documented on https://react.dev/learn/creating-a-react-app[Start a New React Project]."
+** Apparently 'React is a library' eventually got what it deserved and 'full stack frameworks' are the way to go with https://nextjs.org/docs[Next.js (from Vercel)] top of the list.
+
+## Getting started (with Next.js)
+
+* https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs
+* https://nextjs.org/docs/app/getting-started
+
+* `npx create-next-app@latest`
+
+  Choices selected: 
+
+  ```text
+  ✔ What is your project named? … kpworld-ui
+  ✔ Would you like to use TypeScript? … Yes
+  ✔ Would you like to use ESLint? … Yes
+  ✔ Would you like to use Tailwind CSS? … Yes
+  ✔ Would you like your code inside a `src/` directory? … Yes
+  ✔ Would you like to use App Router? (recommended) … Yes
+  ✔ Would you like to use Turbopack for `next dev`? … Yes
+  ✔ Would you like to customize the import alias (`@/*` by default)? … No
+  ```
+
+## React from scratch
+
+https://react.dev/learn/build-a-react-app-from-scratch
+
+* `npm create vite@latest  -- --template react`
+
+* https://transform.tools/html-to-jsx[HTML to JSX]
+* Copied the templates required for conduit into index.html and App.jsx
+
+* Asked copilot: 
+
+  > Use Authorization header "Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZW1vQGRlbW8uY29tIiwiZXhwIjoxNzUxNDUzODYyfQ.4o6iPC_sJ8VXy8titbmlRoM9iCToO5Rvq7IhjA81Q5o" and SWR state management library to fetch data from http://localhost:8000/api/articles?limit=20
+
+  Successful. Not only added the dependency and implemented the SWR fetcher but replaced the templated articles with a new ArticleList function and populated it from the data returned!
+
+* https://reactrouter.com/start/data/custom[React router]
+* Prompt:
+
+> Please implement the react router and add a new route /login
+
+  Incredibly it seemed to find the login page template more or less identical to the expected one (couple of differenvces like button had type=submit)
+
+* Prompt
+
+> On submit of login form POST to http://localhost:8000/users/login. request body should be {
+"user": {
+"email": "demo@demo.com",
+"password": "demo"
+}
+}
+
+  Result looks promising, though I noted it had not clocked that POST url was same as the fetch for articles.
+
+  Accepted its offer to continue with 
+  > yes please save the login token and redirect to / route
+
+  then
+  > AUTH_TOKEN on line 9 should be replaced the the token from local storage
+
+  Small hiccup--and it was mine--login url should have contained /api.
+
+
+

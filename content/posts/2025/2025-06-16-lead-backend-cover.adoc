@@ -1,0 +1,24 @@
+---
+title: "2025 06 16 Lead Backend Cover"
+date: 2025-06-16
+draft: false
+---
+
+Tim Stephenson
+
+07798 867607 | tim@knowprocess.com
+
+
+Dear Hiring Manager,
+
+
+Experienced *Lead Backend Developer* with deep expertise in *Python*, *Java*, and *AWS*, I’ve led Agile teams delivering scalable, cloud-native systems for clients including UK government, and the NHS. At Elsevier, I've rounded out my experience with both Lambda and Kubernetes deployments on AWS.
+
+My prior work with the NHS directly supported *carbon reduction* goals, aligning closely with your mission around sustainable logistics.
+
+I offer hands-on DevOps, strong architectural design, and *full SDLC* ownership—from API design to CI/CD and production scaling—with leadership experience in high-impact environments.
+
+
+Kind regards,
+
+*Tim Stephenson*

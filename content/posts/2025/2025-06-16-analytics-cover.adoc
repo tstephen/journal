@@ -1,0 +1,20 @@
+---
+title: "2025 06 16 Analytics Cover"
+date: 2025-06-16
+draft: false
+---
+
+= Tim Stephenson
+07798 867607 | tim@knowprocess.com
+
+Dear Hiring Manager,
+
+I'm a Senior Python Developer with 10+ years of experience delivering scalable, cloud-based systems using *Django*, *FastAPI*, and *SQL*. At Elsevier, I led backend development of AWS-hosted services with *CI/CD*, *Docker*, and *Terraform*, improving performance and reliability.
+
+Previously, I delivered secure Django platforms for UK government and NHS clients, supporting critical services and *carbon reduction goals*.
+
+With an *MEng from the University of Manchester* and a strong DevOps background, I'm excited by your work in e-commerce and data analytics and eager to contribute to your fast-growing team.
+
+Kind regards,
+
+Tim Stephenson

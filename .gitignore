@@ -1,3 +1,7 @@
+# generated renditions of content
+content/**/*.html
+content/**/*.pdf
+
 # Hugo generated files
 /public/
 /resources/_gen/

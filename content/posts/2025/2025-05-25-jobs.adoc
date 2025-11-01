@@ -1,0 +1,478 @@
+
+---
+title: "2025-05-25 Jobs"
+date: 2025-05-25
+draft: false
+---
+
+== Reference
+
+```
+asciidoctor -a nofooter -a stylesheet=asciidoc.css 2025-07-10-capgemini.adoc
+wkhtmltopdf 2025-06-17-python-contract.html 2025-06-17-python-contract.pdf
+```
+
+
+- look at 'find hiring managers advice' on LinkedIn
+
+== 2025-08-18
+
+- contract to perm (MCR)
+  - ref: https://www.jobserve.com/gb/en/FastTrackJobApplication.aspx?jobid=1AAE729A021ADF3A84&ACN=5766D093EC0D&pf=F34504D5572D42E3F46F&vwc=js&src=3520B40AB288477F9E48AE28
+- Gorilla energy: 
+  - https://jobs.ashbyhq.com/gorilla/5629b719-2725-4751-aeda-679bf0fcc800/application
+
+
+== 2025-08-05
+
+- Java, Bootle
+  - spoke to Melanie: t: 01782 970843, Email: 	965258.apps.jsve@smartsourcing.co.uk
+  charity commission, tues on site
+  2 roles
+  complaint site + back end app
+  lots of perm, bit stuck in their ways
+  mix of levels
+  cv thurs, interview thurs or fri.
+  bpss, wont reactivate sc if lapsed.
+
+== 2025-08-04
+
+- Senior Java Developer - Liverpool - Hybrid/2 Days on site in Bootle, Liverpool 510 pd Inside IR35 - 6 months
+
+  ====
+  Currently we are recruiting for a Senior Java Developer to join one of our clients for a 6 month contract. This role is inside IR35 and offering market rates. They are based in Liverpool and need someone who can work Bon a hybrid basis.
+
+  As an experienced full stack Senior Java Developer, you will support the organisation in delivering new online form as digital services. This role will focus on building dynamic, user-friendly web forms that align with GDS standards and ensure accessibility, security, and performance.
+  
+  As the Senior Java Developer, you will work closely with colleagues across the directorate, within the Software Development team and alongside other full-stack developers, delivery mangers, user researchers and test engineers.
+  
+  Our client is particularly interested in candidates who have experience working on UK government digital services and are familiar with the GDS style and standards. They also want someone who has experience of building dynamic forms with Java Spring Boot, as this would be highly beneficial for the role.
+  
+  Experience Required:
+  
+  Proficient in Java, Spring Boot MVC, jQuery, and Spring Framework.
+  
+  Strong experience with JSON and Thymeleaf
+  
+  Proficient in RESTful API development with Postman, SWAGGR.
+  
+  Familiarity with Azure DevOps for CI/CD pipelines.
+  
+  Experience with Ingress, cookie/session management, and secure web application practices.
+  
+  Knowledge of GDS Themes, design principles and accessibility standards.
+  
+  Proficient in unit testing using JUnit and handling POJOs and mock data
+  
+  Understanding of microservices and distributed systems.
+  
+  Experience in public sector or GDS compliant environments (Desirable)
+  
+  Familiarity with containerisation (eg, Docker, AKS, Kubernetes) (Desirable)
+  
+  Exposure to Front End frameworks (eg React, Angular) is a plus (Desirable)
+  ====
+
+- Abdul Ali, Black Tide Partners
+  - Email: abul@blacktidepartners.com
+  - Call: +44 117 205 0509 or + 44 791 398 2112
+  - https://www.linkedin.com/jobs/view/4270464428/
+
+  ====
+    Python Engineer (Django/Flask) – Remote
+    
+    
+    Role Highlights:
+    
+        Position: Python Engineer
+        Location: Remote
+        Employment Type: Permanent
+        Compensation: Competitive market salary plus equity options
+    
+    
+    Overview: An innovative EdTech start-up is seeking a skilled Python Engineer to join their team. This company is changing education with an AI-driven platform that aligns with the UK National Curriculum, ensuring child-safe content and advanced safeguarding features.
+    
+    
+    Key Responsibilities:
+    
+        Develop and maintain scalable backend services using Django and Flask frameworks.
+        Design and implement RESTful APIs to support web and mobile applications.
+        Collaborate with cross-functional teams to define, design, and ship new features.
+        Ensure the robustness and scalability of applications through testing and code reviews.
+        Integrate MongoDB for data storage solutions as needed.
+        Participate in agile development processes and contribute to continuous improvement.
+    
+    
+    Qualifications:
+    
+        Proven experience as a Python Developer with expertise in Django and Flask.
+        Familiarity with MongoDB or other NoSQL databases is a plus.
+        Strong understanding of software development principles and best practices.
+        Experience with version control systems like Git.
+        Ability to work independently in a remote setting and manage time effectively.
+        Excellent problem-solving skills and attention to detail.
+    
+    
+    Why Join Us?
+    
+        Be part of a mission-driven company that's making a tangible impact on children's education.
+        Enjoy the flexibility of remote work while collaborating with a passionate and innovative team.
+        Opportunity to grow with the company and take on increased responsibilities.
+        Competitive compensation package with equity options.
+    
+   ====
+
+== 2025-07-30
+
+Gaurav, needs https://www.langchain.com/
+
+== 2025-07-24
+
+2 contract applications from jobserve: Python London and Leeds.
+
+
+== 2025-07-22
+
+- Venkatesh, inside 2 days in Bradford, 500
+
+
+== 2025-07-16
+
+- No go from Henry on CapGemini:
+
+> “Tim is an experienced IT professional with a development background, however, he doesn’t have the leadership or extent of cloud native experience to align with his anticipated grade (salary expectations).”
+
+== 2025-07-10
+
+- chased by Henry at Searchability National Security & Defence
+  - have to upload as well as put forward by him.
+  - https://careers.capgemini.com/job/London-Cloud-Native-DevOps-Engineer-%28AWS%29/1192073501/
+
+== 2025-07-03
+
+=== Quick updates
+
+* Venkatesh Colleti
+
+* Henry Clay‑Davies
+  Cap Gemini, see whether they will consider lapsed SC on Fri 4th
+  Recruitment Consultant 	 | Searchability National Security & Defence
+  t: 0161 416 6800	 | 	m: 07719065951
+
+== 2025-07-02
+
+=== Interview for Aire Logic Clinicals team
+
+Questions:
+- metrics? https://dora.dev/guides/dora-metrics-four-keys/[DORA]
+  - Throughput: Change lead time, Deployment frequency
+  - Stability: Change fail rate, Mean time to detect / recover
+- Dev tools: poetry or uv?
+- API: contract first?
+- AI where do you see this fitting (now or in the future)?
+
+- Matt dean, tech lead on NRL
+- Eliz Williams product
+Louisa Hayford casely eng lead
+- Jaladindu Das
+
+- national record locator
+  - serverless, API
+  - no front end provided, somem involvement
+
+NDOC opt out
+
+NDOX: covid prefs
+  serverless, react, 
+
+one team, three prods
+
+gateway route to each lambda
+- also nextjs
+
+aws firehose, athena
+
+apogee
+
+flask
+
+fire, HL7: healthcare standards
+tfsec, trivy - 
+
+splunk
+
+metrics
+  - api so 
+  - kpis quarterly
+  - no dora yet
+
+== 2025-06-24
+
+=== interview
+
+imaging
+
+Dan Jones - tech lead?
+Jim - 'lowly' dev
+Kira Pennington - delivery lead
+
+
+Share imaging 
+agnostic platform - access anywhere
+permissions level
+exiting alpha
+
+MRI and CT
+scalability 40Gb for single scan
+200Mb single doc
+
+can we scale to national
+legacy and new standards (IHE XDE and XDS SOAP) MHDS RESTful
+interop std
+
+AWS, python 
+API gateway & Lambdas - wont work
+
+size of team
+  - these 3 + 1 more dev + BA coming on board
+
+==== Prep
+
+- Agile
+  - scrum ceremnioes
+- AireInnovate
+- Cyber Essentials Plus
+
+API gateway
+
+Questions:
+- Dev tools: poetry or uv?
+- API: contract first?
+- AI where do you see this fitting (now or in the future)?
+
+
+==== Questions
+
+=== Dom Linfield - Brio
+
+- Aire logic - consultancy
+  - 30 years, 80% NHS England and Wales + education & gov
+  - https://www.airelogic.com/
+  - employee owned
+- grown 10 -> 300. act as internal recruitment
+- strong python + devops api gateway, s3, lambda, k8s, terraform
+- programme: "Clinicals"
+- connect 111, gps,
+- some front end but strong backend
+- tech transformation: 'sporadic', simplify, consolidate
+- dynamodb
+- duration: end sept or end dec (15-16 currently at end sep) but expecting to extend
+- 1st stage: airlogix 30 min virtual, programme then
+- 2nd is repeat with nhs
+- Github
+- 550 inside
+
+== 2025-06-19
+
+- max, peninsula
+  - changes to business owners since general election
+  - hr support
+
+- Senior Software Engineer, Python, AWS, MedTech, COR7276A
+  - https://www.cwjobs.co.uk/job/105140465?JBE=1&entryUrl=&DCMP=R_EM_JaJob_CW_ST_18062025_jobTitle
+  - 65-80k, hybrid, Oxford or London, 4 days WFH
+  - 44 1865 784 336, option 1, unfortunately all busy!
+  - 2 week review!
+- Brendan, Redrock
+  - https://apply.workable.com/gresham/j/021E3C633E/ 85k
+  - reduced to non-lead and 70k
+- Aaron Brewer, IO Associates
+  - https://www.jobserve.com/gb/en/JobSearch.aspx?shid=41C8A8C1160FBF1C4D6B
+  - desk remembered I called yesterday
+- https://www.jobserve.com/gb/en/find-jobs-in-United-Kingdom/INTERFACE-DEVELOPER-0B0CA6B31A27815627/
+  - Fully remote, limited travel to client site (expenses to be reimbursed)
+  - 6 month initial contract with high likelihood for extension
+  - An active SC would be ideal
+  - Rates - £450-£550 p/day
+  - INSIDE IR35
+
+- sarah, 020 3946 6218 - intelligent automation
+  - found on reed, has sre at elsevier and zaizi cv
+  - https://roboyo.global/
+  - out of berlin, reporting line to de or es
+  - gov, national security agency
+  - aks, k8s, azure
+  - cka, nice to have
+
+- Client Server: Lead Backend Software Engineer Java Kafka
+  - https://www.cwjobs.co.uk/job/105165113?JBE=1&entryUrl=&DCMP=R_EM_iJBE_CW_ST_17062025_jobTitle
+  - SC
+  - Salary to £120k
+  - Hybrid working with only one day a week in London office
+  - Impactful role with excellent career progression
+
+== 2025-06-18
+
+- followed Carl's advice to register on Jobserve and Reed
+- rewrite CV to focus on Python and backend
+- applied Tecknuovo contract
+  - small? 'digital delivery' agency 
+- Applied IO SRE role in Corsham
+  - DV DevOps Engineer - 6 months - £550 A Day Outside IR35
+
+== 2025-06-17
+
+- Aisling Oho group
+  - https://www.linkedin.com/in/aisling-fitzgerald-59aa57238/
+  - https://www.oho.co.uk/meet-the-team/aisling-fitzgerald/
+  - emailed CV and connect request on LinkedIn 
+
+- Ionut Roghina, TRG Recruitment
+  - https://www.meetup.com/thetalentroundabout/events/ last event 5 June
+  - published number not working 020 382 8122
+  - https://www.trg-uk.com/?post_type=job_listing&p=5478
+
+- Alex WA Consultants
+  - no news yet, job closed on 13 June
+
+- Jack, Python contract
+  - https://www.linkedin.com/jobs/view/4249182595/
+    - How many years of work experience do you have with Python (Programming Language)?
+      - 10   
+    - How many years of work experience do you have with Google Cloud Platform (GCP)?
+      - 3  
+    - How many years of work experience do you have with FastAPI?
+      - 5   
+    - Are you legally authorized to work in United Kingdom?
+      - Yes  
+    - Are you comfortable working in a remote setting?
+      - Yes
+    - Will you now or in the future require sponsorship for employment visa status?
+      - No
+    
+    - Blog option: how to deploy a FastAPI app to GCP
+      -
+
+- consider wise
+  - https://medium.com/wise-engineering
+  - https://wise.jobs
+
+== 2025-06-16
+
+- lead backend Java, Python, AWS, Transportation
+  - https://www.totaljobs.com/job/lead-backend-developer-python-java-aws/client-server-job105131103
+  - job desc, cv and cover letter all in this folder, acknowledgment in email
+- analytics job
+  - again all in this folder, acknowledgment in email
+
+== 2025-06-11
+
+- leads:
+  - Alex, WA Consultants: email for update
+  - Camunda impl: 
+- consider
+  - depop.com
+    - TensorFlow, PyTorch and Scikit-learn.
+
+== 2025-06-10
+
+=== second interview at TwinStream
+
+- bombed: why?
+  - didn't know reason for pods to hang
+  - job was on RK2 (k8s distro)
+  - live exercise was manifest
+    - needed details like image not matching deployed
+    - didn't think about what was necessary (deployment -> service -> ingress)
+    - didn't talk enough about the process or collaborate
+- conclusion:
+  - not convinced I want SRE / Ops, better suited to programming
+  - a very narrow test for a very broad role (or if the test matches the role it would be very dull)
+
+== 2025-06-05
+
+- James Chapman (IOAssociates)
+  - called, left voicemail
+  - sent email with CV
+  - did not apply online
+
+- https://www.cwjobs.co.uk/job/23a28859-7bbb-4456-8497-21b5a0e88bd8/application/confirmation/success?userFlow=Single&locale=en_GB&applicationId=cf52661c-82fa-40b3-b03f-3e97fdae7281
+  - Python contract in london for La Fosse 
+
+- interview prep
+  - need to do the Ansible
+    - k8s cluster?
+
+- skills
+  - ML (tensorflow, pytorch)
+  - LLM
+
+== 2025-06-04
+
+The manner of the recent communications about the future direction for Inspector and Capability Testing has been high-handed, unilateral and not through the expected channels of planning or management. I have lead this work, apparently with management support, for some time so the way this change of direction has been allowed to happen makes my position at Elsevier untenable. Please consider this notice of my resignation, effective immediately.
+
+Previous draft too harsh
+As Paul is on vacation I am writing to you to ask what you envisage me doing in the short and medium term since Garrett reports an agreed decision to rewrite the Inspector and Captest work that I have been leading for some time now?
+Implicitly, this is clearly a rejection of the work I have contributed. I also regard the lack of management direction over many months when I was left to believe I had support followed by its withdrawal as potentially contribution to a constructive dismissal. Furthermore, as I reported to Paul, bringing the entire build team to a call effectively to overrule the de facto approach rather than it coming through normal planning and management channels feels a lot like bullying.
+
+== 2025-06-03
+
+- Spotify: Backend Engineer - Platform Developer Experience
+  - 2025-06-03-java-python.adoc
+- https://www.linkedin.com/in/ewan-marshall56/
+  - Advertising the Oliver Bernard job
+  - 0208 154 3254
+- applied for startup job: https://www.linkedin.com/jobs/view/4045524506/
+  - Guy Gabriel at Oho
+    - https://www.oho.co.uk/contact-us/
+    - 
+
+== 2025-05-29
+
+- Rob, Vertech Group UK Ltd
+  - very particular about 10 years python + GCP + 60-90min commute
+  - good conversation: 'on the radar'
+  - CV doesn't shout python enough
+
+- reach out to Luke Stockbridge (now in NY)
+  - found CV he prepped for me in 2022
+- need to follow up on the green tech job application
+  - https://www.linkedin.com/in/FrancescaAimeeHayes/
+  - 01727 295 948 || fhayes@understandingrecruitment.com
+
+== 2025-05-28
+
+- python cv
+- applied for green tech job
+
+== Python 
+
+=== https://www.totaljobs.com/job/python-developer-hybrid-remote/vertech-group-uk-ltd-job104927736
+
+3day on site NW3 90-97 k
+Fastapi, k8s, Ci/cd Google Cloud 
+
+=== https://www.totaljobs.com/job/python-developer/sanderson-recruitment-job104960430
+Occasional London, 650-750 umbrella 
+Sanderson
+Gcp, backend, k8s, machine learning 
+
+=== https://www.totaljobs.com/job/python-developer-remote/knowledge-bank-job104858039
+Fintech, Barnsley, quarterly meetups 
+Python, fasteapi, lambda, ci/cd
+No salary, junior?
+Variety, web scraping, UX, vanilla js 
+
+=== https://www.linkedin.com/jobs/view/4045524506/
+
+Green tech
+3 day hybrid 
+100k
+Django, FastAPI, Docker, AWS
+
+*Applied 28 May 25*
+
+== Java
+
+https://www.totaljobs.com/job/java-software-engineer/omega-resource-group-job104978254
+DV required 6-18 months

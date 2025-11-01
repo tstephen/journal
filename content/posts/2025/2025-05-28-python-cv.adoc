@@ -1,0 +1,107 @@
+---
+title: "2025-05-28 Python CV"
+date: 2025-05-28
+draft: false
+---
+
+= Tim Stephenson
+Full Stack Developer – Python | AWS | Django
+
++44 77988 67607 | tim@knowprocess.com +
+https://linkedin.com/in/stephensontim | https://github.com/tstephen
+
+== Professional Summary
+
+Versatile and engineering-led Full Stack Developer with over 10 years of experience designing and implementing scalable cloud solutions.
+Technical skills focused on Python, FastAPI and cloud hosting services (including AWS Lambda, Kubernetes, Postgres), with a strong foundation in Java EE from earlier in my career.
+Proven ability to bridge backend services with modern front-end frameworks (Svelte, Vue preferred), delivering reliable, cloud-native solutions in agile environments.
+
+== Technical Skills
+
+* *Languages & Frameworks:* Python, Django, Java, JavaScript, TypeScript, HTML, CSS
+* *Cloud & DevOps:* AWS Lambda, Kubernetes, API Gateway, S3, DynamoDB, Docker
+* *Databases:* PostgreSQL, MySQL, DynamoDB
+* *Frontend:* Svelte, Vue.js, Bootstrap, Tailwind
+* *Tools & Other:* Git, Github Actions, Terraform, REST APIs, OpenAPI (Swagger)
+
+== Professional Experience
+
+=== Full Stack Developer
+*Elsevier – Remote / London* +
+_March 2022 – Present_
+
+* Developed and maintained serverless applications using _AWS Lambda_, _API Gateway_, and _DynamoDB_, delivering insights on securing and optimising cost and reliability of cloud applications.
+* Designed RESTful APIs and integrated them into frontend apps.
+* Advising on migrating legacy Java backend services into cloud hosting, improving scalability and maintainability.
+* Responsibility for implementing CI/CD pipelines initially with Jenkins then migration to and maintaince on GitHub Actions.
+
+=== Full Stack Developer (Java, Python, Process Automation)
+*KnowProcess (Freelance)* +
+_Feb 2013 - Mar 2022_
+
+Business automation and digital transformation consulting. Implementation of BPMN and DMN based
+software services. Highlighted projects below:
+
+==== 2019-2021 Several Government departments
+
+* Requirements gathering, modeling and service design to the Government Digital Service (GDS)’s Service Standard.
+* Initial training of the architecture team and ongoing consultancy. 
+* Subject matter expert in business process automation (BPMN, Java microservices, web UI).
+* Security Cleared (SC) role.
+
+==== 2015-2022 Sustainable Reporting Portal (SRP) for Greener NHS (part of NHS England)
+
+* Bid for, delivered and operated the Carbon and other reporting system for NHS England over a number of years.
+* Responsible personally for the architecture, outsourced delivery and customer management throughout the project.
+* Initial development was about a year with ongoing hosting and approx. 3 months enhancements and bug fixes per year.
+* Initially a monolithic architecture on a VPS this migrated to microservices to be more resilient and cloud native (Kubernetes) whilst maintaining the service availability.
+
+==== 2014-2022 Omny Link CRM and Workflow
+
+* Startup offering SaaS to SMEs
+* Full software lifecycle on lightweight CRM and workflow
+
+==== 2013-2016 Climate KIC (start-up incubator at Imperial College)
+
+A software start-up for tracking and managing down carbon emissions. Ultimately transitioned to the SRP project work above.
+
+=== Feb 2012 - Jan 2013: Lead Architect, Helveta
+
+* Reporting to company board, responsible for design and delivery of next generation sustainable supply tracking product for timber industry.
+* Initiated new product development team (offshore) and establishment of agile development practices.
+* Mentoring to team leads on technology issues including hands-on, whiteboard activities and everything in between.
+
+=== Dec 2010 - Feb 2012: Technical founder, pailz.com
+
+* A startup Team Collaboration SaaS.
+* Design and implementation. Front end in Python (Django), back end in Java both hosted on Google App Engine/
+* Participant and editor on Workflow Management Coalition (WfMC)'s Business Process Simulation standard.
+
+=== Jan 2004 - Nov 2010: Engineering Director, TIBCO Software Inc. (previously Staffware)
+
+* Reported to VP of Business Process Management engineering team with frequent interaction with other engineering and marketing managers at SVP, VP and Director level.
+* Driving force behind the award winning TIBCO Business Studio modelling environment from conception to v3, which, to quote a customer is “revolutionising what we can achieve with BPM”
+* Regularly asked to speak to internal and customer audiences (2-200 people) on the BPM vision and how Studio facilitates it.
+* Championed an Agile development culture of shared responsibility and continuous process improvement and test-driven development.
+* Lead the team through two major transitions, mentoring each individual, especially the promotion of two into team leaders as the team grew.
+* Product visions and roadmaps, requirements specifications, user guides and training materials.
+* Responsible for all aspects of delivery of the vision for a BPM-SOA enabled solution for the Insurance market with the goal of an order of magnitude increase in deal size.
+* Hired and formed a new delivery team to build out the solution.
+
+=== Previously
+
+* Jun 2003 - Dec 2003: Consultant at Hummingbird, UK
+* Oct 2001 - Mar 2003: Technical Specialist with Technology One, Australia
+* Oct 1998 - July 2001: Principal Consultant with Sybase Professional Services, UK
+* Aug 1997 - Oct 1998: Analyst / Developer with Admiral Computing, now LogicaCMG
+
+== Education
+
+*Master of Engineering (Hons) in Mechanical Engineering* +
+_University of Manchester, 1997_
+
+== Standards and Projects
+
+* *OMG BPMN Model Interchange Working Group* – Over a decade of participation in annual demos driving interoperability of the BPMN standard across vendors.
+* *Flowable* – Open-source BPMN and DMN engine, contributing to the core engine and documentation.
+* *OMG BPMN 2.0* – Contributed to the Object Management Group's BPMN 2.0 standard, including process modelling and simulation.

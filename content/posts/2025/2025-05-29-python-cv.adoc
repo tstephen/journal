@@ -1,0 +1,104 @@
+---
+title: "2025-05-29 Python CV"
+date: 2025-05-29
+draft: false
+---
+
+= Tim Stephenson 
+077988 67607 | tim@knowprocess.com 
+
+== Summary  
+
+An experienced full stack developer focussed on business automation and digital transformation through software engineering.
+A consultative developer well-versed with multiple languages including Python, Java, and TypeScript delivered in a cloud-native environment.
+Experienced running projects from end-to-end with a host of high profile 
+clients including UK government and NHS.  
+
+## Education
+
+2:1 Master of Engineering (Hons) from University of Manchester  1993-1997        
+
+== Professional Experience
+
+=== March 2022 – Present: Elsevier
+
+* Design, implement, maintain new application delivering insights on securing and optimising cost and reliability of cloud applications.
+* Designed RESTful APIs and integrated them into frontend apps.
+* Advising on migrating legacy Java backend services into cloud hosting, improving scalability and maintainability.
+* Responsibility for implementing CI/CD pipelines initially with Jenkins then migration to and maintaince on GitHub Actions.
+
+*Technologies*: Python, FastAPI, AWS Lambda, API Gateway, DynamoDB, Kubernetes, Docker, GitHub Actions, Terraform, OpenAPI (Swagger)
+
+=== Feb 2013 - 2022: KnowProcess (Freelance) 
+
+Business automation and digital transformation consulting. Implementation of BPMN and DMN based software services. Highlighted projects below:  
+
+==== 2019-2021 Several Government departments 
+
+* Defining software services to the Government Digital Service (GDS)’s Design Standard for user experience. 
+* Full stack development with Agile practices. Primarily Java backend and JavaScript front end.  
+* Security cleared. 
+
+*Technologies:* Java 8,11 Spring Boot, Micro-services, JavaScript, Rest APIs, Keycloak, OAuth, OpenID, Angular, Postgres, BPMN, Docker, Kubernetes, AWS, OpenShift, Terraform, Helm 
+
+==== 2015-2022 Sustainable Reporting Portal for Greener NHS: https://srp.digital/ 
+
+* Initial development was about a year with ongoing hosting and approx. 3 months enhancements 
+and bug fixes per year. 
+* Built an online tool to report sustainability for all Trusts and Commissioners in England. Written in Java using Spring framework. 
+Implemented Micro-services from monolithic architecture. 
+
+*Technologies:* Java 8 Spring MVC, Spring Security, Spring Boot, JavaScript, JPA, Liquibase, JWT, Keycloak, 
+Postgres, Reactive web app, d3.js, Linux, DMN, Docker, Kubernetes, Terraform, Helm 
+
+==== 2014-present Omny Link CRM and Workflow 
+
+* SaaS offering to SMEs 
+* Software as a Service offering lightweight CRM and workflow 
+
+*Technologies:* Java Spring MVC, Spring Security, Spring Boot, JPA, Liquibase, JWT, Keycloak, MySQL, Angular, Linux, BPMN, Docker, Kubernetes, Terraform, Helm 
+
+==== 2014-2016 Discover North Somerset: http://discovernorthsomerset.co.uk/ 
+
+* Initial development project of 6 months followed by hosting and minor enhancements over 3.5 years and then off-boarding 
+* A tourism site integrating Open Data server to web 
+ 
+*Technologies:* WordPress, HTML, CSS, AJAX, Open Data server (CKAN and Redbridge) 
+
+==== 2013-2016 Climate KIC (start-up incubator at Imperial College) 
+
+* A software start-up for tracking and managing down carbon emissions. Ultimately transitioned to the SRP project work above. 
+Java, Docker, Kubernetes ,Spring MVC, Spring Security, Spring Boot, JPA, Liquibase, JWT, Postgres, Reactive web app, d3.js, Linux Java,  
+
+=== Feb 2012 - Jan 2013: Technical Architect, Helveta  
+
+* Reporting to company board, responsible for design and delivery of next generation sustainable 
+* Supply tracking product for timber industry.  
+* Initiated new product development team (offshore) and establishment of agile development practices.  
+* Mentoring to team leads on technology issues including hands-on and whiteboard activities and everything in between.  
+
+=== Dec 2010 - Feb 2012: Technical founder, pailz.com  
+
+* Team management solution 
+* Front end in Python (Django) 
+* Back end in Java hosted on Google App Engine 
+* Participant and editor on Workflow Management Coalition (WfMC)'s Business Process Simulation standard. 
+
+=== Jan 2004 - Nov 2010: Engineering Director, TIBCO Software Inc. (previously Staffware), UK  
+
+* Reported to VP of Business Process Management engineering team with frequent interaction with other engineering and marketing managers at SVP, VP and Director level.  
+* Driving force behind the award winning TIBCO Business Studio modelling environment from conception to v3, which, to quote a customer is “revolutionising what we can achieve with BPM”  
+* Regularly asked to speak to internal and customer audiences (2-200 people) on the BPM vision and how Studio facilitates it.  
+* Championed an Agile development culture of shared responsibility and continuous process improvement and test-driven development.  
+* Lead the team through the transitional period, mentoring each individual, especially the promotion of two into team leaders as the team grew.  
+* Product visions and roadmaps, requirements specifications, user guides and training materials.  
+* Responsible for all aspects of delivery of the vision for a BPM-SOA enabled solution for the Insurance market with the goal of an order of magnitude increase in deal size.  
+* Hired and formed a new delivery team to build out the solution.
+
+=== Jun 2003 - Dec 2003: Consultant at Hummingbird, UK  
+
+=== Oct 2001 - Mar 2003: Technical Specialist with Technology One, Australia 
+
+=== Oct 1998 - July 2001: Principal Consultant with Sybase Professional Services, UK  
+
+=== Aug 1997 - Oct 1998: Analyst / Developer with Admiral Computing, now LogicaCMG 

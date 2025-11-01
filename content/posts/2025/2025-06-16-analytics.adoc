@@ -1,0 +1,55 @@
+---
+title: "2025-06-16 Analytics"
+date: 2025-06-16
+draft: false
+---
+
+
+Senior Python Developer
+Run-Time Group Ltd
+South West London (SW1)
+Permanent
+Published: 4 weeks ago
+
+
+Job Title: Senior Python Developer (Python/Django)
+
+
+
+Location: Fully Remote
+
+Job Type: Full-Time
+
+Salary 80k - 100k
+
+
+
+About the Company:
+
+A fast-growing tech company revolutionizing the e-commerce/data analytics sector with cutting-edge software solutions. Join their dynamic engineering team and contribute to innovative projects.
+
+
+
+Job Description:
+
+We're looking for a passionate Python Developer (Python/Django) with 5 + years of experience. This role offers the opportunity to work in a fast-paced, collaborative environment and grow your skills.
+
+
+
+Key Responsibilities:
+
+Develop and maintain scalable applications using Python (Django).
+Build and integrate APIs and third-party services.
+Participate in Agile development cycles and CI/CD processes.
+Optimize applications for performance and scalability.
+Collaborate with cross-functional teams.
+
+
+Requirements:
+
+Computer Science or STEM degree from a top Russell Group University (1st or 2:1).
+5+ years of full-stack development experience (Python/Django).
+Strong experience with SQL databases (PostgreSQL/MySQL).
+Familiarity with DevOps tools (Docker, Kubernetes, AWS/GCP/Azure).
+Experience with API development and Git.
+

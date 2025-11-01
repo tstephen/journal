@@ -1,0 +1,92 @@
+---
+title: "2025 06 05 WCA"
+date: 2025-06-05
+draft: false
+---
+
+## Mailshot process
+  1. process / omny solution
+    - load each contact into KP CRM (python script or script + CreateContactAndAccount?)
+    - new process to invoke existing send memo for each contact
+  2. python 
+    - read csv
+    - store in db direct (good xp but will take time?)
+    - then new process to invoke SendMemo for each contact as above
+  3. offline server - doesn't really help unless dei-risk change to existing procs
+    - what about attachments?
+      - flowable does not support, think I have a script somewhere?
+      - 
+
+## CRM issues
+
+setting account activity when there's no account!
+
+```
+java.lang.NullPointerException: Cannot invoke "link.omny.custmgmt.model.Account.setActiv │
+│     at link.omny.custmgmt.web.ContactController.findEntityById(ContactController.java:37 │
+│     at jdk.internal.reflect.GeneratedMethodAccessor459.invoke(Unknown Source) ~[?:?]     │
+│     at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source │
+│     at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]                  │
+│     at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils. │
+│     at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.interce │
+│     at link.omny.custmgmt.web.ContactController$$SpringCGLIB$$0.findEntityById(<generate │
+```
+
+## Record enquiry
+
+NOTE: relies on basic auth with users in flowable db.
+Needs REST API privilege!!!:w
+
+By convention set keycloak users to the same pwd.
+
+1. This uses legacy hook (url encoded)
+
+curl -v  -u tim@knowprocess.com:SJ***  -d 'json={"fullName":"ts1","email":"tim@knowprocess.com","accountName":"KP","message":"TEST","tenantId":"knowprocess","ip":"81.159.141.70","admin_email":"tim@knowprocess.com"}' https://crm.knowprocess.com/msg/knowprocess/kp.enquiry.json
+
+2. This creates process contact etc but not acct
+
+curl -v -H "Content-Type: application/json" -u tim@knowprocess.com:SJ*** -d '{"fullName":"ts1","email":"tim@knowprocess.com","accountName":"KP","message":"TEST","tenantId":"knowprocess","ip":"81.159.141.70","admin_email":"tim@knowprocess.com"}' https://crm.knowprocess.com/msg/knowprocess/kp.enquiry.json
+
+hits the same exception above: 
+
+```
+Servlet.service() for servlet [dispatcherServlet] in context with path [] thre │
+│ w exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "l │
+│ ink.omny.custmgmt.model.Account.setActivities(java.util.Set)" because "acct" is null] wi │
+│ th root cause   
+java.lang.NullPointerException: Cannot invoke "link.omny.custmgmt.model.Account.setActiv │
+│ ities(java.util.Set)" because "acct" is null                                             │
+│     at link.omny.custmgmt.web.ContactController.findEntityById(ContactController.java:37 │
+│ 4) ~[custmgmt-3.1.10-SNAPSHOT.jar:3.1.10-SNAPSHOT]   
+```
+
+## from WP
+
+[05-Jun-2025 21:49:29 UTC] Notifying server: 
+[05-Jun-2025 21:49:29 UTC]   Verb: POST
+[05-Jun-2025 21:49:29 UTC]   URL: https://crm.knowprocess.com/msg/knowprocess/kp.enquiry.json
+[05-Jun-2025 21:49:29 UTC]   Origin: https://knowprocess.com
+[05-Jun-2025 21:49:29 UTC]   Message name: kp.enquiry.json
+[05-Jun-2025 21:49:29 UTC]   JSON: {"fullName":"Tim Stephenson","email":"tim@thestephensons.me.uk","accountName":"Thee Stephensons","message":"Hello 6","tenantId":"knowprocess","ip":"195.180.32.108","admin_email":"tim@knowprocess.com"}
+[05-Jun-2025 21:49:29 UTC]   Execution id: 
+[05-Jun-2025 21:49:29 UTC] Response from https://crm.knowprocess.com/msg/knowprocess/kp.enquiry.json: 403
+
+To resolve
+1. Sarah Auth to gateway - how is CRM Auth done?
+2  send William an email 
+a create account
+b create contact 
+c link manually
+d create memo template
+e test 
+
+Later
+1 load contacts into CRM
+2. Create process that trickles them out 
+
+Or switch to icegram? Could help matt too?
+
+## Send memo
+curl -v -u tim@knowprocess.com:SJcq6Syb23tFrNQf -d "memoName=WCASummitBusinessIntro&contactId=30170&tenantId=knowprocess" https://crm.knowprocess.com/form/knowprocess/SendMemo.action
+
+

@@ -1,0 +1,134 @@
+---
+title: "2025-06-09 AWS EKS"
+date: 2025-06-09
+draft: false
+---
+
+# 2025-06-08 AWS CLI EKS
+
+- https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html[AWS CLI install]
+- `$ sudo snap install aws-cli --classic`
+- 
+  ```
+  $ aws --version`
+  aws-cli/2.27.31 Python/3.13.3 Linux/6.11.0-26-generic exe/x86_64.ubuntu.24
+  ```
+- https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html[Session Manager setup]
+- https://docs.aws.amazon.com/systems-manager/latest/userguide/install-plugin-debian-and-ubuntu.html[Debian / Ubuntu instructions]
+  ```
+  curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64bit/session-manager-plugin.deb" -o ~/Downloads/session-manager-plugin.deb
+  sudo dpkg -i ~/Downloads/session-manager-plugin.deb
+  ```
+- https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sso.html[Configure IAM for new account (short term access), mostly employer-managed options]
+- https://docs.aws.amazon.com/singlesignon/latest/userguide/enable-identity-center.html[Take the recommended Organization variant of IAM Identity Center]  
+- After sign in as root user, click enable IAM Identity Center, verify email we arrive at a screen with options:
+  - to add a sub-account
+  - Centralize root access for member accounts
+- Attempt to create sub-account with email, name=Sandbox, IAM role name=OrganizationAccountAccessRole as recommended not to include resources in admin account => Disallowed.
+  - Use wizard to add user (tstephen) and two groups (Developers and Operations)
+    - possibly not permalink: https://eu-west-2.console.aws.amazon.com/singlesignon/home?region=eu-west-2#/instances/75358ec2770990d2/users$addUserWizard[Add user in IAM center]
+  - Add permission set for PowerUserAccess (all except users and groups)
+  - Assign account and permission set to user tstephen
+  - Navigate to Settings page of IAM Identity Center, copy Issuer URL to use as start url (cli 
+  - configure cli
+    ```
+    $ aws configure sso 
+    SSO session name (Recommended): kp-sso
+    SSO start URL [None]: https://identitycenter.amazonaws.com/ssoins-75358ec2770990d2
+    SSO region [None]: eu-west-2
+    SSO registration scopes [sso:account:access]:
+    Attempting to automatically open the SSO authorization page in your default browser.
+    If the browser does not open or you wish to use a different device to authorize this request, open the following URL:
+    https://oidc.eu-west-2.amazonaws.com/authorize?response_type=code&client_id=HrX_6Xtf_X9JugsQ_ODzf2V1LXdlc3QtMg&redirect_uri=http%3A%2F%2F127.0.0.1%3A34275%2Foauth%2Fcallback&state=6761b626-ace8-4ffe-9a75-4714d3a9e227&code_challenge_method=S256&scopes=sso%3Aaccount%3Aaccess&code_challenge=8Dx4cN3sa_Hosr1x7Qh-GkJTsgTlVvRNaiAzvZhprKQ
+    The only AWS account available to you is: 379413463976
+    Using the account ID 379413463976
+    The only role available to you is: PowerUserAccess
+    Using the role name "PowerUserAccess"
+    Default client Region [None]: eu-west-2
+    CLI default output format (json if not specified) [None]:
+    Profile name [PowerUserAccess-379413463976]: kp-admin
+    To use this profile, specify the profile name using --profile, as shown:
+    aws sts get-caller-identity --profile kp-admin
+    ```
+- https://docs.aws.amazon.com/systems-manager/latest/userguide/install-plugin-verify.html[Verify]
+  ```
+  $ session-manager-plugin
+  The Session Manager plugin is installed successfully. Use the AWS CLI to start a session.
+  ```
+
+## K8s
+
+- create vpc
+  ```
+  $ aws --profile kp-admin ec2 create-vpc --cidr-block 10.0.0.0/16 
+  {
+      "Vpc": {
+          "OwnerId": "379413463976",
+          "InstanceTenancy": "default",
+          "Ipv6CidrBlockAssociationSet": [],
+          "CidrBlockAssociationSet": [
+              {
+                  "AssociationId": "vpc-cidr-assoc-04e63f23dba94c0d0",
+                  "CidrBlock": "10.0.0.0/16",
+                  "CidrBlockState": {
+                      "State": "associated"
+                  }
+              }
+          ],
+          "IsDefault": false,
+          "VpcId": "vpc-07140f15640aecf32",
+          "State": "pending",
+          "CidrBlock": "10.0.0.0/16",
+          "DhcpOptionsId": "dopt-dc1e55b4"
+      }
+  }
+  ```
+
+## Create bastion with terraform
+
+- S3 bucket for state:
+  ```
+  $ aws --profile kp-admin s3 mb s3://$(date +%Y%m%d)-kp-eks-terraform-state --region eu-west-2
+  make_bucket: 20250609-kp-eks-terraform-state
+  ```
+
+- create dynamodb table for state lock
+  ```
+    aws --profile kp-admin dynamodb create-table --table-name kp-eks-terraform-locks --attribute-definitions AttributeName=LockID,AttributeType=S --key-schema AttributeName=LockID,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5 --region eu-west-2
+    {
+        "TableDescription": {
+            "AttributeDefinitions": [
+                {
+                    "AttributeName": "LockID",
+                    "AttributeType": "S"
+                }
+            ],
+            "TableName": "kp-eks-terraform-locks",
+            "KeySchema": [
+                {
+                    "AttributeName": "LockID",
+                    "KeyType": "HASH"
+                }
+            ],
+            "TableStatus": "CREATING",
+            "CreationDateTime": "2025-06-09T21:46:41.011000+01:00",
+            "ProvisionedThroughput": {
+                "NumberOfDecreasesToday": 0,
+                "ReadCapacityUnits": 5,
+                "WriteCapacityUnits": 5
+            },
+            "TableSizeBytes": 0,
+            "ItemCount": 0,
+            "TableArn": "arn:aws:dynamodb:eu-west-2:379413463976:table/kp-eks-terraform-locks",
+            "TableId": "38266a2a-8e37-4aeb-a436-76829cfe5c60",
+            "DeletionProtectionEnabled": false
+        }
+    }
+ ```
+
+- use Warp to gen terraform
+
+- Run: `terraform apply`
+- Connect: `ssh -i ~/.ssh/id_rsa ec2-user@<BASTION_PUBLIC_IP>`
+- Cleanup: `terraform destroy`
+

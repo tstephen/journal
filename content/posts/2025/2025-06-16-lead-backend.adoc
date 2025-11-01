@@ -1,0 +1,41 @@
+---
+title: "2025-06-16 Lead Backend"
+date: 2025-06-16
+draft: false
+---
+
+Lead Backend Developer / Software Engineer (Python Java AWS) London / WFH to £115k
+
+Are you a backend focussed software developer with leadership skills?
+
+You could be progressing your career at a scale-up tech company (established 10 years), that enables smart matching for commercial van drivers and consumers, via job bidding and route optimisation, streamlining processes and delivering CO2 carbon neutral targets.
+
+You'll be working on complex and interesting systems and can enjoy a range of benefits and perks.
+
+As a Lead Backend Developer you'll head up a team of 4-5 within an Agile environment to design and develop, troubleshoot and solve complex software issues to help scale and future proof the business. You'll focus on backend Python and Java engineering on AWS but there's a range of other tech in the stack (JavaScript, Vue.js, TypeScript and of course a bit of legacy PHP!), you'll be encouraged to explore new technologies and use the best tool for the job.
+
+There's an emphasis on getting stuff done and immediate business impact, alongside longer term strategy.
+
+Location / WFH:
+There's a hybrid work from home model with three days a week in the Hammersmith office and the other two work from home. When in the office you can make use of the onsite gym, barista coffee and free breakfast.
+
+About you:
+
+You're an experienced, backend focused software developer with Python and Java and good knowledge of AWS
+You're product focussed with good business acumen
+You have a good understanding of software architecture patterns, database optimisation, infrastructure, scalability and deployment
+You have full software development lifecycle experience including CI/CD and testing
+You're collaborative with Agile team leadership skills
+You're likely to be degree educated in Computer Science or similar tech discipline
+What's in it for you:
+
+Salary to £115k
+25 days holiday (increasing to 30), plus Christmas Eve
+Vitality healthcare plus a host of wellbeing benefits
+Pension
+Family leave and enhanced maternity scheme
+Continual career and self development opportunities
+Onsite gym, and partnership with Octopus Electric Vehicles and Evans Cycle to Work scheme, there's showers and towels if you do decide to cycle!
+Apply now to find out more about this Lead Backend Developer / Software Engineer (Python Java AWS) opportunity.
+
+At Client Server we believe in a diverse workplace that allows people to play to their strengths and continually learn. We're an equal opportunities employer whose people come from all walks of life and will never discriminate based on race, colour, religion, sex, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. The clients we work with share our values.

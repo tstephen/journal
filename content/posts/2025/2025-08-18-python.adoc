@@ -1,0 +1,80 @@
+---
+title: "2025 08 18 Python"
+date: 2025-08-18
+draft: false
+---
+
+= Tim Stephenson 
+077988 67607 | tim@knowprocess.com 
+
+== Summary  
+
+* An experienced software engineer focused on business goals through automation and digital transformation.
+* A consultative individual contributor, with leadership experience, well-versed with multiple languages including Python, Java, and TypeScript delivered in a cloud-native environment.
+* I'm self-starting, used to remote working but value face time too.
+* Looking for contract work but open to the right permanent role
+* Security cleared (SC).
+
+## Education
+
+Master of Engineering (Hons) from University of Manchester
+
+== Professional Experience
+
+=== March 2022 – Present: Senior Engineer, Elsevier
+
+Joining a new team tasked with consolidating 250+ Kubernetes clusters into a common system we achieved the vast majority of these in 36 months. The remaining ones had significantly different requirements.
+ 
+* I designed as well as led implemention and, later, maintainence of an application for introspecting clusters, identifying deviations from best practice in security, cost, performance and reliability dimensions.
+* This entailed the full software lifecycle including things like negotiating RESTful API contracts, test standards and coverage, CICD pipelines etc.
+* I also enjoyed mentoring less experienced developers, notably on potential to automate routine tasks and collaborating on how to update some legacy apps.
+
+*Technologies*: Python, FastAPI, AWS Lambda, API Gateway, DynamoDB, Kubernetes, Docker, GitHub Actions, Terraform, OpenAPI (Swagger), NewRelic
+
+=== Jan 2019 - Dec 2021: Solutions Architect, Zaizi - on behalf of UK Govenment departments
+
+* Large-scale, full stack development projects with Agile practices.
+* Security cleared (SC).
+
+My role was both hands-on for proofs-of-concept and providing code review and problem-solving support to multiple teams alongside maintaining architectural and other design docs.
+
+*Technologies:* Python 3, Robot Framework, Micro-services, Rest APIs, Keycloak, OAuth, OpenID, Postgres, Docker, Kubernetes, AWS, OpenShift, Terraform, Helm 
+
+=== Mar 2015 - Dec 2018: Lead Software Engineer, KnowProcess - on behalf of NHS England
+
+A complete non-financial (ESG) reporting and carbon tracking framework for NHS Trusts.
+
+As the lead engineer on a small team I designed the solution using domain-driven microservices on public cloud hosting and remained personally responsible for delivery by the outsourced development team.
+My part ranged from client presentation to reviews and hands-on problem-solving in the code base.
+I also led the transition to containerised deployment to gain better resilience and scalability.
+
+*Technologies:* Java, Spring Boot, JavaScript, JWT, Keycloak, Postgres, Docker, Kubernetes, Terraform, Helm
+
+=== Feb 2013 - Feb 2015: Technical Founder, Trakeo - incubated at Imperial College, London
+
+* A software start-up for tracking and managing down carbon emissions. Ultimately transitioned to the NHS project work above.
+* Gained valuable experience on Business Model Canvas, Lean Start-up, and start-up environments.
+
+*Technologies:* Java, Spring Boot, Postgres
+
+=== Feb 2011 - Feb 2013: Technical Architect, Helveta
+
+* A funded start-up, I reported to board and was responsible for design and delivery of next generation sustainable Supply tracking product for timber industry.
+* Initiated new product development team (offshore) and establishment of agile development practices.
+* Mentoring to team leads on technology issues including hands-on and whiteboard activities and everything in between.
+
+=== Jan 2004 - Dec 2010: Engineering Director, TIBCO
+
+* Reported to VP of Business Process Management engineering team with frequent interaction with other engineering and marketing managers at SVP, VP and Director level.
+* Driving force behind the award winning TIBCO Business Studio modelling environment from conception to v3, which, to quote a customer is "revolutionising what we can achieve with BPM"
+* Regularly asked to speak to internal and customer audiences (2-200 people) on the BPM vision and how Studio facilitates it.
+* Product visions and roadmaps, requirements specifications, user guides and training materials.
+* Hired and lead a development team for multiple years and transitions, I am particularly proud of mentoring each individual, especially the promotion of two into team leaders as the team grew.
+
+=== Jun 2003 - Dec 2003: Consultant at Hummingbird, UK  
+
+=== Oct 2001 - Mar 2003: Technical Specialist with Technology One, Australia 
+
+=== Oct 1998 - July 2001: Principal Consultant with Sybase Professional Services, UK  
+
+=== Aug 1997 - Oct 1998: Analyst / Developer with Admiral Computing, now LogicaCMG 
