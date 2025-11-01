@@ -2,9 +2,12 @@
 title: "2025 07 01 Realworld Frontend React"
 date: 2025-07-01
 draft: false
+tags:
+- "2025"
+- react
 ---
 
-# RealWorld front end in React
+== RealWorld front end in React
 Links:
 
 * https://codebase.show/projects/realworld?language=typescript[RealWorld examples in TypeScript]
@@ -13,7 +16,7 @@ Links:
 ** But Create React App says it closed in 2021 and "we recommend that you migrate to one of React frameworks documented on https://react.dev/learn/creating-a-react-app[Start a New React Project]."
 ** Apparently 'React is a library' eventually got what it deserved and 'full stack frameworks' are the way to go with https://nextjs.org/docs[Next.js (from Vercel)] top of the list.
 
-## Getting started (with Next.js)
+=== Getting started (with Next.js)
 
 * https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs
 * https://nextjs.org/docs/app/getting-started
@@ -33,7 +36,7 @@ Links:
   ✔ Would you like to customize the import alias (`@/*` by default)? … No
   ```
 
-## React from scratch
+=== React from scratch
 
 https://react.dev/learn/build-a-react-app-from-scratch
 
@@ -73,6 +76,3 @@ https://react.dev/learn/build-a-react-app-from-scratch
   > AUTH_TOKEN on line 9 should be replaced the the token from local storage
 
   Small hiccup--and it was mine--login url should have contained /api.
-
-
-

@@ -2,6 +2,9 @@
 title: "2025 06 19 Medtech Corriculo"
 date: 2025-06-19
 draft: false
+tags:
+- "2025"
+- job advert
 ---
 
 This is an excellent Senior Software Engineer / Python Developer position, working for an innovative MedTech company with a growing reputation in their field. Working in a full-stack capacity, but with a back end focus, the Senior Software Engineer / Python Developer will use their knowledge across Python, cloud technologies (AWS), databases, Kubernetes, Terraform and microservice architecture to design and build key platforms for the business, that utilise Machine Learning and AI to analyse complex medical imaging data.
@@ -27,4 +30,3 @@ Experience ideally, of both Kubernetes and Terraform
 An understanding or experience within Microservice Architecture or within a microservices environment
 Whilst medical device experience would be ideal, experience gained from working in other regulated industries that require documentation would be applicable
 Experience of developing applications that process complex data such as imaging or video, especially those that have an ML or AI component would be highly beneficial
-The list above is important, but not as important as hiring the right person! So if you don't meet all of the criteria above, but feel the role is of interest, please apply or get in touch today to discuss further.

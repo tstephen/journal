@@ -3,6 +3,9 @@
 title: "2025-05-25 Jobs"
 date: 2025-05-25
 draft: false
+tags:
+- "2025"
+- job search
 ---
 
 == Reference

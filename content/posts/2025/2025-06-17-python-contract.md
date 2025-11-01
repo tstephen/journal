@@ -2,6 +2,9 @@
 title: "2025-06-17 Python Contract"
 date: 2025-06-17
 draft: false
+tags:
+- "2025"
+- job advert
 ---
 
 Contract Python Developer | Remote (UK Hours) | 3 Months | FastAPI | GCP | Kubernetes

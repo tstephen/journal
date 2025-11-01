@@ -2,6 +2,10 @@
 title: "Camping Trip Ideas"
 date: 2025-01-01
 draft: false
+tags:
+- "2025"
+- ideas
+- camping
 ---
 
 - Goodleigh hill, worcs. Award winner 24, 5 hard standing and wild flower meadow

@@ -2,6 +2,10 @@
 title: "2025 Readings"
 date: 2025-01-01
 draft: false
+tags:
+- "2025"
+- bible
+- reading
 ---
 
 # 2025-readings

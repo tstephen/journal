@@ -2,9 +2,13 @@
 title: "2025-06-09 AWS EKS"
 date: 2025-06-09
 draft: false
+tags:
+- "2025"
+- AWS
+- Devops
 ---
 
-# 2025-06-08 AWS CLI EKS
+== 2025-06-08 AWS CLI EKS
 
 - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html[AWS CLI install]
 - `$ sudo snap install aws-cli --classic`
@@ -56,7 +60,7 @@ draft: false
   The Session Manager plugin is installed successfully. Use the AWS CLI to start a session.
   ```
 
-## K8s
+=== K8s
 
 - create vpc
   ```
@@ -84,7 +88,7 @@ draft: false
   }
   ```
 
-## Create bastion with terraform
+=== Create bastion with terraform
 
 - S3 bucket for state:
   ```
@@ -131,4 +135,3 @@ draft: false
 - Run: `terraform apply`
 - Connect: `ssh -i ~/.ssh/id_rsa ec2-user@<BASTION_PUBLIC_IP>`
 - Cleanup: `terraform destroy`
-

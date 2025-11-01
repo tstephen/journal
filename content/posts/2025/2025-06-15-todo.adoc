@@ -2,9 +2,12 @@
 title: "2025-06-15 Todo"
 date: 2025-06-15
 draft: false
+tags:
+- "2025"
+- todo
 ---
 
-# 2025-06-15
+== 2025-06-15
 
 - jobs (am)
   - BPM CV

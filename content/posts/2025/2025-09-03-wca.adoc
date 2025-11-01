@@ -2,11 +2,14 @@
 title: "2025-09-03 WCA"
 date: 2025-09-03
 draft: false
+tags:
+- "2025"
+- "WCA"
 ---
 
-= 2025-09-03-wca
+== 2025-09-03-wca
 
-== Green open homes
+=== Green open homes
 
 * hubs not county wide
 * need to go out and recruit people

@@ -2,9 +2,10 @@
 title: "2025 08 18 Python"
 date: 2025-08-18
 draft: false
+tags: ["2025"]
 ---
 
-= Tim Stephenson 
+== Tim Stephenson 
 077988 67607 | tim@knowprocess.com 
 
 == Summary  
@@ -15,11 +16,11 @@ draft: false
 * Looking for contract work but open to the right permanent role
 * Security cleared (SC).
 
-## Education
+=== Education
 
 Master of Engineering (Hons) from University of Manchester
 
-== Professional Experience
+=== Professional Experience
 
 === March 2022 – Present: Senior Engineer, Elsevier
 
@@ -71,10 +72,10 @@ I also led the transition to containerised deployment to gain better resilience 
 * Product visions and roadmaps, requirements specifications, user guides and training materials.
 * Hired and lead a development team for multiple years and transitions, I am particularly proud of mentoring each individual, especially the promotion of two into team leaders as the team grew.
 
-=== Jun 2003 - Dec 2003: Consultant at Hummingbird, UK  
+==== Jun 2003 - Dec 2003: Consultant at Hummingbird, UK  
 
-=== Oct 2001 - Mar 2003: Technical Specialist with Technology One, Australia 
+==== Oct 2001 - Mar 2003: Technical Specialist with Technology One, Australia 
 
-=== Oct 1998 - July 2001: Principal Consultant with Sybase Professional Services, UK  
+==== Oct 1998 - July 2001: Principal Consultant with Sybase Professional Services, UK  
 
-=== Aug 1997 - Oct 1998: Analyst / Developer with Admiral Computing, now LogicaCMG 
+==== Aug 1997 - Oct 1998: Analyst / Developer with Admiral Computing, now LogicaCMG 

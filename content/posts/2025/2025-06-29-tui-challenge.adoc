@@ -2,6 +2,9 @@
 title: "2025 06 29 Tui Challenge"
 date: 2025-06-29
 draft: false
+tags:
+- "2025"
+- tui
 ---
 
 # 2025-06-29-tui-challenge

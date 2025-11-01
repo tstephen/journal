@@ -2,9 +2,12 @@
 title: "2025-05-28 Python CV"
 date: 2025-05-28
 draft: false
+tags:
+- "2025"
+- job search
 ---
 
-= Tim Stephenson
+== Tim Stephenson
 Full Stack Developer – Python | AWS | Django
 
 +44 77988 67607 | tim@knowprocess.com +
@@ -24,7 +27,7 @@ Proven ability to bridge backend services with modern front-end frameworks (Svel
 * *Frontend:* Svelte, Vue.js, Bootstrap, Tailwind
 * *Tools & Other:* Git, Github Actions, Terraform, REST APIs, OpenAPI (Swagger)
 
-== Professional Experience
+=== Professional Experience
 
 === Full Stack Developer
 *Elsevier – Remote / London* +
@@ -42,7 +45,7 @@ _Feb 2013 - Mar 2022_
 Business automation and digital transformation consulting. Implementation of BPMN and DMN based
 software services. Highlighted projects below:
 
-==== 2019-2021 Several Government departments
+===== 2019-2021 Several Government departments
 
 * Requirements gathering, modeling and service design to the Government Digital Service (GDS)’s Service Standard.
 * Initial training of the architecture team and ongoing consultancy. 
@@ -61,7 +64,7 @@ software services. Highlighted projects below:
 * Startup offering SaaS to SMEs
 * Full software lifecycle on lightweight CRM and workflow
 
-==== 2013-2016 Climate KIC (start-up incubator at Imperial College)
+===== 2013-2016 Climate KIC (start-up incubator at Imperial College)
 
 A software start-up for tracking and managing down carbon emissions. Ultimately transitioned to the SRP project work above.
 
@@ -71,7 +74,7 @@ A software start-up for tracking and managing down carbon emissions. Ultimately 
 * Initiated new product development team (offshore) and establishment of agile development practices.
 * Mentoring to team leads on technology issues including hands-on, whiteboard activities and everything in between.
 
-=== Dec 2010 - Feb 2012: Technical founder, pailz.com
+==== Dec 2010 - Feb 2012: Technical founder, pailz.com
 
 * A startup Team Collaboration SaaS.
 * Design and implementation. Front end in Python (Django), back end in Java both hosted on Google App Engine/

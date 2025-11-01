@@ -2,6 +2,7 @@
 title: "2025 06 19 Medtech Cover"
 date: 2025-06-19
 draft: false
+tags: ["2025"]
 ---
 
 

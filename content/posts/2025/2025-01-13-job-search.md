@@ -1,3 +1,12 @@
+---
+title: "2025-01-13 Job Search"
+date: 2025-01-13
+draft: false
+tags:
+- "2025"
+- job search
+---
+
 # Job search '25
 
 latest CV: [https://www.dropbox.com/home/tim/work/cv and applications/2024](https://www.dropbox.com/home/tim/work/cv%20and%20applications/2024)
@@ -75,4 +84,3 @@ Tim
 - Workiva: q',q2mQ,y6UMgUn 
   - submitted just Elsevier and NHS experience + degree
 - Adroit people (Bristol contract) <https://uk.indeed.com/viewjob?jk=cd4280cd374ae244&from=shareddesktop>
-- 

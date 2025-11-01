@@ -2,6 +2,10 @@
 title: "2025-06-07 WCA Summit round 1 results"
 date: 2025-06-07
 draft: false
+tags:
+- "2025"
+- WCA
+- WCA summit
 ---
 
 Bounces / failures from the first round.

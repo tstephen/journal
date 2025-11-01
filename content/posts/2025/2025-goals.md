@@ -2,6 +2,10 @@
 title: "2025 Goals"
 date: 2025-01-01
 draft: false
+tags:
+- "2025"
+- goals
+- todo
 ---
 
 # 2025 goals

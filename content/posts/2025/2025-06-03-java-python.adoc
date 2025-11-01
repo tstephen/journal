@@ -2,24 +2,27 @@
 title: "2025-06-03 Java Python"
 date: 2025-06-03
 draft: false
+tags:
+- 2025"
+- job search
 ---
 
-= Tim Stephenson 
+== Tim Stephenson 
 077988 67607 | tim@knowprocess.com 
 
-== Summary  
+=== Summary  
 
 * An experienced software engineer focussed on business goals through automation and digital transformation.
 * A consultative developer well-versed with multiple languages including Java, Python, and TypeScript delivered in a cloud-native environment.
 * Experienced running projects from small and scaling start-ups to high profile clients including UK government and NHS.  
 
-## Education
+=== Education
 
 2:1 Master of Engineering (Hons) from University of Manchester  1993-1997        
 
-== Professional Experience
+=== Professional Experience
 
-=== March 2022 – Present: Elsevier
+==== March 2022 – Present: Elsevier
 
 * Design, implement, maintain new application delivering insights on securing and optimising cost and reliability of cloud applications.
 * Designed RESTful APIs and integrated them into frontend apps.
@@ -28,14 +31,14 @@ draft: false
 
 *Technologies*: Python, FastAPI, AWS Lambda, API Gateway, DynamoDB, Kubernetes, Docker, GitHub Actions, Terraform, OpenAPI (Swagger), NewRelic
 
-=== Feb 2013 - 2022: KnowProcess (Freelance) 
+==== Feb 2013 - 2022: KnowProcess (Freelance) 
 
 Business automation and digital transformation consulting. 
 Implementation of Business Process orchestration of Domain Driven and Decision Management based backend services. 
 
 Highlighted projects below:
 
-==== 2019-2021 Several Government departments 
+===== 2019-2021 Several Government departments 
 
 * Defining software services to the Government Digital Service (GDS)’s Design Standard for user experience.
 * Full stack development with Agile practices. Java backend with TypeScript front end.
@@ -43,7 +46,7 @@ Highlighted projects below:
 
 *Technologies:* Python 3, Robot Framework, Java 8 & 11, Spring Boot, Micro-services, TypeScript, Rest APIs, Keycloak, OAuth, OpenID, Angular, Postgres, BPMN, Docker, Kubernetes, AWS, OpenShift, Terraform, Helm 
 
-==== 2015-2022 Sustainable Reporting Portal for Greener NHS: https://srp.digital/ 
+===== 2015-2022 Sustainable Reporting Portal for Greener NHS: https://srp.digital/ 
 
 * Directed the development of innovative software products focused on non-financial (ESG) reporting and carbon calculations. 
 * Spearheaded initiatives for supply chain traceability, enhancing transparency and sustainability. 
@@ -54,40 +57,40 @@ Highlighted projects below:
 *Technologies:* Java 8 & 11, Spring MVC, Spring Security, Spring Boot, JavaScript, JPA, Liquibase, JWT, Keycloak, 
 Postgres, Reactive web app, d3.js, Linux, DMN, Docker, Kubernetes, Terraform, Helm 
 
-==== 2014-present Omny Link CRM and Workflow 
+===== 2014-present Omny Link CRM and Workflow 
 
 * SaaS offering to SMEs 
 * Software as a Service offering lightweight CRM and workflow 
 
 *Technologies:* Java, Spring MVC, Spring Security, Spring Boot, JPA, Liquibase, JWT, Keycloak, MySQL, Angular, Linux, BPMN, Docker, Kubernetes, Terraform, Helm 
 
-==== 2013-2016 Climate KIC (start-up incubator at Imperial College) 
+===== 2013-2016 Climate KIC (start-up incubator at Imperial College) 
 
 * A software start-up for tracking and managing down carbon emissions. Ultimately transitioned to the NHS project work above. 
 * Gained valuable experience on Business Model Canvas, Lean Start-up, and start-up environments.
 
 *Technologies:* Java, Docker, Kubernetes, Spring MVC, Spring Security, Spring Boot, JPA, Liquibase, JWT, Postgres, Reactive web app, d3.js, Linux
 
-==== 2014-2016 Discover North Somerset: http://discovernorthsomerset.co.uk/ 
+===== 2014-2016 Discover North Somerset: http://discovernorthsomerset.co.uk/ 
 
 * Showcased the wealth of local businesses and attractions in North Somerset, providing a platform for local tourism and commerce.
 * Integrated existing council Open Data.
  
 *Technologies:* WordPress, Python, Open Data server (CKAN and Redbridge) 
 
-=== Feb 2012 - Jan 2013: Technical Architect, Helveta  
+==== Feb 2012 - Jan 2013: Technical Architect, Helveta  
 
 * A funded start-up, I reported to board and was responsible for design and delivery of next generation sustainable Supply tracking product for timber industry.  
 * Initiated new product development team (offshore) and establishment of agile development practices.  
 * Mentoring to team leads on technology issues including hands-on and whiteboard activities and everything in between.  
 
-=== Dec 2010 - Feb 2012: Technical founder, pailz.com  
+==== Dec 2010 - Feb 2012: Technical founder, pailz.com  
 
 * Team management solution 
 * Front end in Python (Django), backend in Java, hosted on Google App Engine
 * Editor on Workflow Management Coalition (WfMC)'s Business Process Simulation standard. 
 
-=== Jan 2004 - Nov 2010: Engineering Director, TIBCO Software Inc. (previously Staffware), UK  
+==== Jan 2004 - Nov 2010: Engineering Director, TIBCO Software Inc. (previously Staffware), UK  
 
 * Reported to VP of Business Process Management engineering team with frequent interaction with other engineering and marketing managers at SVP, VP and Director level.  
 * Driving force behind the award winning TIBCO Business Studio modelling environment from conception to v3, which, to quote a customer is “revolutionising what we can achieve with BPM”  
@@ -98,10 +101,10 @@ Postgres, Reactive web app, d3.js, Linux, DMN, Docker, Kubernetes, Terraform, He
 * Responsible for all aspects of delivery of the vision for a BPM-SOA enabled solution for the Insurance market with the goal of an order of magnitude increase in deal size.  
 * Hired and formed a new delivery team to build out the solution.
 
-=== Jun 2003 - Dec 2003: Consultant at Hummingbird, UK  
+==== Jun 2003 - Dec 2003: Consultant at Hummingbird, UK  
 
-=== Oct 2001 - Mar 2003: Technical Specialist with Technology One, Australia 
+==== Oct 2001 - Mar 2003: Technical Specialist with Technology One, Australia 
 
-=== Oct 1998 - July 2001: Principal Consultant with Sybase Professional Services, UK  
+==== Oct 1998 - July 2001: Principal Consultant with Sybase Professional Services, UK  
 
-=== Aug 1997 - Oct 1998: Analyst / Developer with Admiral Computing, now LogicaCMG 
+==== Aug 1997 - Oct 1998: Analyst / Developer with Admiral Computing, now LogicaCMG 

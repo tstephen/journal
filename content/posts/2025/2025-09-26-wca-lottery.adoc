@@ -2,8 +2,10 @@
 title: "2025 09 26 Wca Lottery"
 date: 2025-09-26
 draft: false
+tags:
+- "2025"
+- WCA
 ---
-
 
 ## retrofit
 

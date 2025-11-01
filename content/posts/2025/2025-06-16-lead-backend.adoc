@@ -2,6 +2,9 @@
 title: "2025-06-16 Lead Backend"
 date: 2025-06-16
 draft: false
+tags:
+- "2025"
+- job advert
 ---
 
 Lead Backend Developer / Software Engineer (Python Java AWS) London / WFH to £115k
